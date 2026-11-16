@@ -1,0 +1,77 @@
+{
+  "data_source": "data\\mall_customers_yuan.csv",
+  "dataset_note": "课堂展示数据，不是教师指南中的bank_customers.csv；未生成或修改客户信息。",
+  "sample_count": 300,
+  "base_features": [
+    "income",
+    "balance",
+    "product_count"
+  ],
+  "extended_features": [
+    "income",
+    "balance",
+    "product_count",
+    "age"
+  ],
+  "k": 4,
+  "elbow_k": 3,
+  "cluster_counts": {
+    "0": 85,
+    "1": 76,
+    "2": 50,
+    "3": 89
+  },
+  "business_names": {
+    "0": "多产品活跃成长型",
+    "1": "中产稳健维护型",
+    "2": "高净值富裕型",
+    "3": "年轻起步培育型"
+  },
+  "sse_by_k": {
+    "1": 899.9999999999998,
+    "2": 447.5313769949257,
+    "3": 274.09190546273567,
+    "4": 218.45505763440934,
+    "5": 187.78361345120544,
+    "6": 157.29982051449164,
+    "7": 127.1089105286353,
+    "8": 112.36779332023046,
+    "9": 98.19747755188011
+  },
+  "selected_silhouette": 0.4192673816403035,
+  "best_silhouette_k": 2,
+  "best_silhouette_score": 0.5604562252476843,
+  "extended_features_ari": 0.7088256262537979,
+  "extended_cluster_counts": {
+    "0": 58,
+    "1": 93,
+    "2": 50,
+    "3": 99
+  },
+  "extended_business_names": {
+    "0": "多产品活跃成长型",
+    "1": "年轻起步培育型",
+    "2": "高净值富裕型",
+    "3": "中产稳健维护型"
+  },
+  "minimum_stability_ari": 1.0,
+  "maximum_aligned_center_distance": 0.0,
+  "unscaled_vs_scaled_ari": 0.38788601027094083,
+  "unscaled_cluster_counts": {
+    "0": 20,
+    "1": 106,
+    "2": 34,
+    "3": 140
+  },
+  "feature_standard_deviations": {
+    "income": 12.949924182919636,
+    "balance": 173297.93434443773,
+    "product_count": 1.442603091265843
+  },
+  "ring_experiment": {
+    "kmeans_ari": -0.0024113041092421014,
+    "dbscan_ari": 1.0,
+    "dbscan_non_noise_clusters": 2,
+    "dbscan_noise_points": 0
+  }
+}

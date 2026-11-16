@@ -1,0 +1,4 @@
+﻿seed_pair,adjusted_rand_index,max_aligned_center_distance,mean_aligned_center_distance
+42_vs_7,1.0,0.0,0.0
+42_vs_2026,1.0,0.0,0.0
+7_vs_2026,1.0,0.0,0.0
